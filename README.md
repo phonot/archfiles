@@ -1,5 +1,5 @@
-###### files for my archinstall & rice
+#### files for my archinstall & rice
 prerequisite\
   -> xrandr\
-  -> xcompgr\
+  -> xcompgr
   
