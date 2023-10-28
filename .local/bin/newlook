@@ -1,0 +1,12 @@
+#!/bin/sh
+
+wall=$(find ~/WALL -type f -name "*.jpg" -o -name "*.png" | shuf -n 1)
+
+# background apply
+xwallpaper --zoom $wall
+
+#theme apply
+wal -c
+wal -i $wall
+
+xdotool key super+F5
