@@ -48,10 +48,13 @@ if [ -d /etc/X11/xinit/xinitrc.d ] ; then
  unset f
 fi
 
-
+#resolution
 xrandr --output Virtual1 --mode 1920x1080 &
-/home/ph/.local/bin/newlook &
-mpv ~/Downloads/hev_logon.wav &
+#time and date
 /home/ph/.local/bin/bar.sh &
+#new theme
+/home/ph/.local/bin/newlook &
+#transperent terminal
 xcompmgr &
+#execute dwm
 exec dwm 
