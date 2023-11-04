@@ -8,13 +8,6 @@ sysmodmap=/etc/X11/xinit/.Xmodmap
 # merge in defaults and keymaps
 
 if [ -f $sysresources ]; then
-
-
-
-
-
-
-
     xrdb -merge $sysresources
 
 fi
@@ -25,14 +18,7 @@ fi
 
 if [ -f "$userresources" ]; then
 
-
-
-
-
-
-
     xrdb -merge "$userresources"
-
 fi
 
 if [ -f "$usermodmap" ]; then
@@ -51,10 +37,13 @@ fi
 #resolution
 xrandr --output Virtual1 --mode 1920x1080 &
 #time and date
-/home/ph/.local/bin/bar.sh &
+#/home/ph/.local/bin/bar.sh &
+
 #new theme
 /home/ph/.local/bin/newlook &
 #transperent terminal
 xcompmgr &
+dwmblocks &
 #execute dwm
+sxhkd &
 exec dwm 
