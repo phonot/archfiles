@@ -1,0 +1,4 @@
+ctrl + period
+  rofi -show emoji -modi emoji
+ctrl + BackSpace
+  scrot -s
