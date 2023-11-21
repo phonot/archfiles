@@ -7,5 +7,6 @@ prerequisite\
   -> xwallpaper\
   -> xrandr\
   -> xcompgr\
-  ->pulsemixer [mpc- for music]
+  ->pulsemixer [mpc- for music] \
+  -> awk : \
   
