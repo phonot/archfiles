@@ -2,7 +2,7 @@
 prerequisite\
   -> libxft & libxinerama\
   -> python-pywal\
-  -> xcompmgr (transerent ST)
+  -> xcompmgr (translucent ST)
   ->zsh + zsh-syntax-highlighting\
   -> xwallpaper\
   -> xrandr\
