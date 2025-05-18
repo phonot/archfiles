@@ -10,6 +10,6 @@ prerequisite\
   ->pulsemixer [mpc- for music] \
   -> awk : \
   
-#hmm
+###hmm
 for codeblocks for dwmblocks in /.local/bin
 add `export PATH="$HOME/.local/bin:$PATH"`
